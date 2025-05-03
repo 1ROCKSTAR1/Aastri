@@ -1,5 +1,6 @@
 package org.example.controller;
 
+import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.example.dto.ProductDTO;
 import org.example.entity.Product;
@@ -18,7 +19,7 @@ public class ProductController {
     private final ProductService productService;
 
     @PostMapping
-    public ResponseEntity<Product> create(@RequestBody ProductDTO dto) {
+    public ResponseEntity<Product> create(@Valid @RequestBody ProductDTO dto) {
         return new ResponseEntity<>(productService.create(dto), HttpStatus.OK);
     }
 
