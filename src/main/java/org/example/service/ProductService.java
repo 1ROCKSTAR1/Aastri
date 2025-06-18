@@ -22,6 +22,11 @@ public class ProductService {
                 .build());
     }
 
+    public Product readById(Long id) {
+        return productRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Product not found with id: " + id));
+    }
+
     public List<Product> readAll() {
         return productRepository.findAll();
     }
