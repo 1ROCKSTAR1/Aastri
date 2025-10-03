@@ -1,4 +1,4 @@
-# 🚀 Spring Boot REST API Project
+# 🚀 Aastri Spring Boot REST API Project
 
 <div align="center">
 	<code><img width="60" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/rest.png" alt="REST" title="REST"/></code>
