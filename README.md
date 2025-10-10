@@ -4,7 +4,7 @@
 
 <img src="https://github.com/1ROCKSTAR1/source/blob/main/icons/Java.svg" width="56" height="56">
 <img src="https://github.com/1ROCKSTAR1/source/blob/main/icons/spring.png" width="56" height="56">
-<img src="https://github.com/1ROCKSTAR1/source/blob/main/icons/postgres.png" width="96" height="56">
+<img src="https://github.com/1ROCKSTAR1/source/blob/main/icons/postgres.png" width="56" height="56">
 <img src="https://github.com/1ROCKSTAR1/source/blob/main/icons/maven.png" width="56" height="56">
 <img src="https://github.com/1ROCKSTAR1/source/blob/main/icons/Intelij_IDEA.svg" width="56" height="56">
 <img src="https://github.com/1ROCKSTAR1/source/blob/main/icons/lombok.png" width="56" height="56">
