@@ -6,6 +6,8 @@ import lombok.Data;
 @Data
 public class ProductDTO {
 
+    private Long id;
+
     @NotEmpty
     @Size(min = 2, max = 54, message = "Name should be between 2 and 54 characters")
     private String name;
